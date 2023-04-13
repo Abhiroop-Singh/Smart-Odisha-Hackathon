@@ -1,0 +1,37 @@
+#outerdashmun {
+  height: 100vh;
+  background-color: #ebf9db;
+  width: 84vw;
+  padding: 10vh 7vw;
+}
+.resbut {
+  color: white;
+  background-color: green;
+  border: none;
+  margin-left: 0.6em;
+  cursor: pointer;
+}
+#muparlog {
+  display: flex;
+  justify-content: space-between;
+}
+#mlout {
+  width: 5rem;
+  height: 2rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-color: #800020;
+  color: white;
+  cursor: pointer;
+}
+#mlout:hover {
+  transform: scale(1.07);
+  transition: 4ms;
+}
+.form-img {
+  width: 100%;
+  height: 15rem;
+}
+#raise {
+  margin-bottom: 4vh;
+}

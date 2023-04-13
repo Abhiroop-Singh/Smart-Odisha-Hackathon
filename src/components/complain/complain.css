@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet"');
+#cformOuter {
+  background-color: #ebf9db;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+#tree {
+  height: 25rem;
+  width: 35rem;
+  padding-top: 4rem;
+}
+.complainForm {
+  height: fit-content;
+  width: 30vw;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+#compfor {
+  height: 100%;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+#compfor > h2 {
+  margin: 1rem auto;
+  margin-top: 2rem;
+  text-decoration: dashed;
+}
+#cbox {
+  margin: 0 auto;
+}
+.ipfield {
+  padding: 7px 6px;
+  border-radius: 6px;
+  width: 100%;
+  margin: 0.5rem auto;
+  margin-top: 1rem;
+}
+#compfor > textarea {
+  height: 4rem;
+  resize: none;
+}
+
+#raise {
+  width: 50%;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: medium;
+  background-color: black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 7px;
+  margin: 1rem auto;
+}
+#ai {
+  width: fit-content;
+  height: 1rem;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.4rem 0.7rem;
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  background-color: red;
+}
+
+#ai:active {
+  color: white;
+}
+.mostout,
+.awout {
+  background-color: #ebf9db;
+  padding-bottom: 3vh;
+}
+.awareness {
+  width: 70vw;
+  height: fit-content;
+  /* height:94vh; */
+  background-color: white;
+  margin: 2rem auto;
+  padding: 5vh 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+.imginf {
+  height: 90%;
+  width: 70%;
+  margin-left: 2rem;
+}
+.textinfo {
+  width: 50%;
+
+  font-family: "Inter", sans-serif;
+}
+.h1 {
+  color: #2900ce;
+
+  font-family: "Inter", sans-serif;
+}
+.imnf {
+  height: 2rem;
+  width: 2rem;
+}
+.did {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.abra1 {
+  width: 40%;
+}
+.abra2 {
+  margin-left: 10vw;
+  width: 60%;
+}
+.awareness2 {
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+  height: fit-content;
+  /* height:94vh; */
+  background-color: white;
+  margin: auto;
+  padding-left: 10vw;
+}

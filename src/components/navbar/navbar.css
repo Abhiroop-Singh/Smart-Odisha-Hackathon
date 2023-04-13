@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet');
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+nav > a > img {
+  height: 4.5rem;
+}
+#navul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#navul > li {
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+#navul > li > a {
+  font-family: "Inter", sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: x-large;
+}
+#navul > li > a :active {
+  color: black;
+}
+#langbut{
+  cursor: pointer;
+  padding:0rem 1rem;
+  /* padding-bottom:0.5rem; */
+  /* margin:0 auto; */
+  color:white;
+  background-color:green;
+  border:1px solid black;
+  border-radius:10px;
+  /* margin-top:1rem; */
+  height:3.7rem;
+  width: 8rem;
+  font-size: 15px;
+  text-align: left;
+
+}

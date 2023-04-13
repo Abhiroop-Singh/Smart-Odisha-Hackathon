@@ -1,0 +1,66 @@
+#badadibba {
+  border: 2px solid black;
+  height: 50vh;
+  width: 50vw;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 9vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5rem 3rem;
+  background-color: beige;
+}
+.form-container {
+  /* margin-top: 12rem; */
+}
+.Form {
+  display: flex;
+  justify-content: space-around;
+}
+#complaint_Ticket {
+  width: 35vw;
+  padding: 7px 5px;
+  border-radius: 7px;
+}
+#trs {
+  width: 5.5rem;
+  border-radius: 20px;
+  border: 0.1px solid black;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
+#trs:hover {
+  transform: scale(1.03);
+}
+#upperauth {
+  margin-top: 0;
+  width: 11rem;
+  padding: 7px 3px;
+  border-radius: 15px;
+  border: 0.01px solid black;
+  color: white;
+  background-color: rgb(241, 72, 72);
+  margin: auto;
+  cursor: pointer;
+}
+#upperauth:hover {
+  transform: scale(1.03);
+}
+.tab {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 2rem;
+}
+.trackh,
+.trackd {
+  border: 1px solid black;
+  width: 15%;
+  padding: 5px 5px;
+  align-items: center;
+}
+#trackaddr {
+  width: 40%;
+}

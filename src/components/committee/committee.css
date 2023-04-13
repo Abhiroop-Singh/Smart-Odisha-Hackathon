@@ -1,0 +1,174 @@
+/* #outerdashcom {
+  background-color: #ebf9db;
+  padding: 3rem;
+  height: 68vh;
+  width: 84vw;
+  padding: 10vh 7vw;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet');
+div > a > img {
+  height: 4.5rem;
+}
+#gchead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#gchead > a {
+  width: 37%;
+}
+#gchead > div {
+  width: 63%;
+}
+#gchead > div > h2 {
+  font-family: "Inter", sans-serif;
+}
+#outerdashcom > h2 {
+  margin-bottom: 1rem;
+}
+#compfor > img {
+  scale: 0.5;
+  padding: 0;
+}
+
+#notelse {
+  background-color: #ebf9db;
+  padding-top: 1rem;
+  height: fit-content;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 65rem;
+  height: 300px;
+  background: #f1f1f1;
+  margin: 100px auto 0;
+  word-break: break-all;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  /* margin-top: 2rem; */
+}
+#tabtab {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 2rem;
+  margin-left: 10%;
+}
+.bloc-tabs {
+  display: flex;
+}
+.tabs {
+  padding: 15px;
+  padding-top: 1rem;
+  text-align: center;
+  width: 100%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-size: larger;
+}
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: rgb(88, 147, 241);
+}
+
+#bon1,
+#bon2,
+#bon3 {
+  border: none;
+}
+.content-tabs {
+  flex-grow: 1;
+  height: 200vh;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+#uparlog {
+  display: flex;
+  justify-content: space-between;
+}
+#clout {
+  width: 5rem;
+  height: 2rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-color: #800020;
+  color: white;
+  cursor: pointer;
+}
+#clout:hover {
+  transform: scale(1.07);
+  transition: 4ms;
+}
+.bahar {
+  border: 2px solid red;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 1rem 2.5%;
+  justify-content: space-between;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+}
+.rdibba {
+  display: flex;
+}
+.ldibba {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.headeritems {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+#pdf{
+  text-decoration: none;
+}
+.issue-image{
+  width:13rem;
+  height:11rem;
+}

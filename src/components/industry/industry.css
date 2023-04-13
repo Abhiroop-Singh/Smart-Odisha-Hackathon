@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins&display=swap"rel="stylesheet"');
+.ind-dibba {
+  height: 100vh;
+  background-color: #ebf9db;
+  width: 84vw;
+  padding: 10vh 7vw;
+}
+#indbadadabba {
+  width: 100%;
+  padding: 1rem 0.7rem;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+#im {
+  border: 2px solid black;
+  height: 10rem;
+  width: 10rem;
+  margin-right: 12vw;
+}
+#dashul {
+  list-style: none;
+}
+#dashul > li {
+  font-size: large;
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.accbutt {
+  padding: 0.2rem 1.2rem;
+  margin-left: 1rem;
+  border-radius: 20px;
+  border: 2px transparent;
+  color: white;
+  cursor: pointer;
+}
+#verify {
+  background-color: green;
+}
+#reject {
+  background-color: red;
+}
+.accbutt:hover {
+  transform: scale(1.07);
+  shadow: 1px 0.5px 0.5px 1px black;
+}
+#form-cont {
+  background-color: #ebf9db;
+  height: 100vh;
+  width: 100%;
+  padding-top: 2rem;
+}
+#ind-comp-form {
+  border: 2px solid black;
+  width: 22vw;
+  height: 75vh;
+  border-radius: 7px;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+.ipfield {
+  width: 100%;
+  border-radius: 5px;
+}
+#icbut {
+  width: 50%;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: medium;
+  background-color: black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+#ind-comp-form > h2 {
+  margin: 0 auto;
+}
+#shikayat {
+  width: 100%;
+  height: 100%;
+}
+.form-img {
+  width: 100%;
+  height: 15rem;
+}
+#mcf {
+  width: 34vw;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid black;
+  padding: 0;
+  border-radius: 15px;
+  background-color: white;
+}
+#raise {
+  margin-bottom: 4vh;
+}
+#stark {
+  display: flex;
+  justify-content: space-between;
+}
+#stark > h2 {
+  padding-left: 5rem;
+}

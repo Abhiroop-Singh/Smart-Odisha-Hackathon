@@ -1,0 +1,44 @@
+.count-container {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* position: absolute; */
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+
+.col {
+  flex-basis: 22%;
+  text-align: center;
+  color: #555;
+}
+
+.counter-box {
+  width: 15vw;
+  height: 60%;
+  background-color: #ffff;
+  padding: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 20px -4px #66676c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+}
+.counter-box > h2 {
+  display: inline-block;
+  margin: 15px 0;
+  font-size: 50px;
+  color: #000;
+}
+.counter-box .fa {
+  font-size: 40px;
+  color: #009688;
+  display: block;
+}
+.cim {
+  height: 3rem;
+  width: 3rem;
+}
