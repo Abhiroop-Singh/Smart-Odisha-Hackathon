@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Swachhta-A step towards sanity
+# Project Description
+ 
+The "Swachhta" Project is an innovative web-based solution that helps residents of Odisha request municipal services such as waste pickup, drainage issues, sewage issues, etc. 
 
-## Available Scripts
+In addition, Swachhta empowers citizens to report improper waste disposal by industries to the appropriate authorities.
 
-In the project directory, you can run:
+Furthermore, it has a feature that is ML-based where citizens can scan the waste to know what type of waste it is. 
 
-### `npm start`
+This project will help in increasing the segregation of waste and will also help in classification and seperation of recyclable waste , especially e-waste that will also be a source of revenue;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This will also increase public participation by providing them the facility to know whether the waste is recyclable or not, and also by enabling them to complaint about industries easily
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install Swachhta by following the below mentioned steps
 
-### `npm test`
+```bash
+  git clone https://github.com/Abhiroop-Singh/Swachhta.git
+  cd Swachhta
+```
+## installation of create react app
+```bash
+  npm i
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## installation of backend packages
+```bash
+  cd backend
+  npm i
+```
 
-### `npm run build`
+## set up the virtual environment for AI Model
+```bash
+  py -m venv my_env
+  .\my_env\Scripts\activate = to activate virtual environment
+  ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ## Install the required packages for virtual environment
+  ```bash
+      pip install tensorflow
+      pip install numpy flask scipy
+      pip install google-auth
+      pip install gunicorn h5py
+      pip install gevent
+      pip install Pillow
+```
+## Steps to run the project
+     Open 3 terminals simulataneously
+    
+```bash
+On First Terminal
+          npm run start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+On Second Terminal
+          cd backend
+          node index.js
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+On Third Terminal
+          .\my_env\Scripts\activate
+          cd Waste-classification-app
+          py app.py
+```
