@@ -66,3 +66,10 @@ On Third Terminal
           cd Waste-classification-app
           py app.py
 ```
+
+## Authors
+
+- [@Harsh Dutta Tewari](https://github.com/Harsh-Tewari)
+- [@Abhiroop Singh](https://github.com/Abhiroop-Singh)
+- [@Achintya Mishra](https://github.com/achintyamishra01)
+- [@Ansh Jain](https://github.com/anshjain0106)
