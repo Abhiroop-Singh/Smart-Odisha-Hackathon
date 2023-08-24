@@ -1,6 +1,6 @@
 # Project Title
 
-Swachhta-A step towards sanity
+Swachhta-A step towards sanity.
 # Project Description
  
 The "Swachhta" Project is an innovative web-based solution that helps residents of Odisha request municipal services such as waste pickup, drainage issues, sewage issues, etc. 
